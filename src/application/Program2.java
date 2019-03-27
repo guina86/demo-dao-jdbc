@@ -28,7 +28,6 @@ public class Program2 {
 
 		System.out.println("=== TEST 3: Department insert =====");
 		dep = new Department(null, "Sports");
-		//departmentDao.insert(dep);
 		System.out.println("Inserted! New id = " + dep.getId());
 		
 		System.out.println();
@@ -41,7 +40,7 @@ public class Program2 {
 		
 		System.out.println();
 		
-		System.out.println("=== TEST 5: seller delete =====");
+		System.out.println("=== TEST 5: Department delete =====");
 		System.out.print("Enter id for delete: ");
 		int id = sc.nextInt();
 		departmentDao.deleteById(id);
