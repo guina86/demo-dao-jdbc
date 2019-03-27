@@ -28,6 +28,7 @@ public class Program2 {
 
 		System.out.println("=== TEST 3: Department insert =====");
 		dep = new Department(null, "Sports");
+		departmentDao.insert(dep);
 		System.out.println("Inserted! New id = " + dep.getId());
 		
 		System.out.println();
