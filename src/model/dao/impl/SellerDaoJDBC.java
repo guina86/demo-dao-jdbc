@@ -45,7 +45,7 @@ public class SellerDaoJDBC implements SellerDao {
 					obj.setId(id);
 				}
 			} else {
-				throw new DbException("Unexpected error! nor rows affected!");
+				throw new DbException("Unexpected error! no rows affected!");
 			}
 			
 		}catch (SQLException e) {
